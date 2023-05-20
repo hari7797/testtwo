@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="logo">Library System</div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="table">
+            <h2>Books</h2>
+            <div class="inside">
+            <table>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td> <a href="#" class="books">Book Title 1</a>
+                        <table>
+
+                            <tr>
+                                <td>Publication Date: 2000</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author Name 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td> <a href="#" class="books">Book Title 2</a>
+                        <table>
+
+                            <tr>
+                                <td>Publication Date: 2005</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 300</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890456</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author Name 2</td>
+                    <td>Genre 2</td>
+                    <td> Not Available</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td> <a href="#" class="books">Book Title 3</a>
+                        <table>
+
+                            <tr>
+                                <td>Publication Date: 2010</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 350</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890789</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author Name 3</td>
+                    <td>Genre 3</td>
+                    <td>Available</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <div class="form">
+            <h2>Register</h2>
+            <div class="inside">
+
+            <form action="">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName">
+
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName">
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+
+                <label for="age">Age</label>
+                <input type="number" maxlength="100" minlength="5" id="age">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="pass">Password</label>
+                <input type="password" id="pass">
+
+                <label for="confPass">Confirm Password</label>
+                <input type="password" id="confPass">
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

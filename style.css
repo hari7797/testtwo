@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 35px;
+    position: fixed;
+    top: 0;
+    width: 95vw;
+}
+
+.logo {
+    color: white;
+    padding-left: 25px;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links ul li {
+    padding: 0 25px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.table{
+    margin: 70px 20px 10px 10px;
+    border: 1px solid black;
+    width: 70%;
+}
+
+h2{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+td,
+th {
+    width: 200px;
+    padding: 10px;
+}
+th{
+    text-align: left;
+}
+
+.form{
+    border: 1px solid black;
+    width: 70%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+
+.form h2{
+    margin-left: 10px;
+}
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 15px; 
+}
